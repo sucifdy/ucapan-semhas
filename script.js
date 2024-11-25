@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (stage === 0) {
             container.classList.remove("dark");
             container.classList.add("light");
-            message.textContent = "Selamat, Anda Kena Tipu!";
+            message.textContent = "awokawokaok, makan olokan!";
             message.classList.add("visible");
             button.textContent = "Lanjutkan";
             stage++;
@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
             message.textContent = "Sebentar...";
             button.style.display = "none";
             setTimeout(() => {
-                message.textContent = "Apakah Anda Siap?";
+                message.textContent = "Are You Ready?";
                 button.style.display = "block";
-                button.textContent = "Lihat Kejutan";
+                button.textContent = "Lihat Keindahan Dunia";
                 stage++;
             }, 2000);
         } else if (stage === 2) {
@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
     continueButton.addEventListener("click", () => {
         questionSheet.classList.remove("visible");
         container.classList.add("girly");
-        message.textContent = "SELAMAT SEMHAS!";
+        message.textContent = "SELAMAT SEMHAS ABEL!";
         startConfetti();
         playMusic();
         setTimeout(() => {
-            message.textContent = "Selamat atas pencapaianmu! Semoga sukses selalu!";
+            message.textContent = "Selamat atas pencapaianmu! Semoga sukses selalu! Keren terus! Mari Kita Main dan Makan Sushi";
         }, 5000);
     });
 
